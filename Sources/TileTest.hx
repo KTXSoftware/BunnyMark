@@ -28,7 +28,7 @@ class TileTest
 		gravity = 0.5;
 		incBunnies = 100;
 		smooth = true;
-		numBunnies = 500;
+		numBunnies = 20000;
 
 		bunnyAsset = Loader.the.getImage("wabbit_alpha");
 		pirate = new Pirate(Loader.the.getImage("pirate"));
