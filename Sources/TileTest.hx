@@ -134,13 +134,6 @@ class TileTest
 				bunny.y = minY;
 			}
 			
-			/*var index = i * TILE_FIELDS;
-			drawList[index] = bunny.position.x;
-			drawList[index + 1] = bunny.position.y;
-			//drawList[index + 2] = 0; // sprite index
-			drawList[index + 3] = bunny.scale;
-			drawList[index + 4] = bunny.rotation;
-			drawList[index + 5] = bunny.alpha;*/
 			var w = bunny.scale * bunnyAsset.width;
 			var h = bunny.scale * bunnyAsset.height;
 			g.rotate(bunny.rotation, bunny.x + w / 2, bunny.y + h / 2);

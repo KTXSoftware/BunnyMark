@@ -66,10 +66,12 @@ class BunnyMark extends Game
 	override public function render(frame: Framebuffer): Void {
 		if (loaded) {
 			var g = frame.g2;
+			g.begin();
 			g.clear();
 			//bg.render(g);
 			tiletest.render(g);
 			//fps.render(g);
+			g.end();
 		}
 	}
 }
