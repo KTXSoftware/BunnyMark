@@ -2,16 +2,44 @@
 	"format": 1,
 	"game":
 	{
-		"name": "Empty",
+		"name": "BunnyMark",
 		"width": 640,
 		"height": 480
 	},
 	"assets":
 	[
-
+		{
+			"id": "64d6cf90-028a-11e5-b939-0800200c9a66",
+			"type": "image",
+			"file": "grass.png",
+			"name": "grass"
+		},
+		{
+			"id": "cab48a00-028a-11e5-b939-0800200c9a66",
+			"type": "image",
+			"file": "pirate.png",
+			"name": "pirate"
+		},
+		{
+			"id": "d0b73c40-028a-11e5-b939-0800200c9a66",
+			"type": "image",
+			"file": "wabbit_alpha.png",
+			"name": "wabbit_alpha"
+		}
 	],
 	"rooms":
 	[
-
+		{
+			"id" : "f9ebf100-028a-11e5-b939-0800200c9a66",
+			"name": "all",
+			"parent": null,
+			"neighbours": [],
+			"assets":
+			[
+				"64d6cf90-028a-11e5-b939-0800200c9a66",
+				"cab48a00-028a-11e5-b939-0800200c9a66",
+				"d0b73c40-028a-11e5-b939-0800200c9a66"
+			]
+		}
 	]
 }
